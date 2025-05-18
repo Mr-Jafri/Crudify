@@ -108,7 +108,7 @@ On first run, the application will:
 Swagger UI is integrated for API testing:
 - First, authorize Swagger by making a `POST` request to `/auth/login` using one of the credentials listed below.
 - Copy the JWT token from the response.
-- Click Swagger's **Authorize** button and paste the token prefixed with `Bearer `.
+- Click Swagger's **Authorize** button and paste the token.
   - Swagger is pre-configured to use the Bearer scheme.
   - Example usage is shown in the Swagger authorization modal.
 
@@ -176,3 +176,11 @@ After logging in, you will be redirected to the **Student List** page. You can:
 These actions are available via buttons located in each row of the grid.
 
 ---
+
+### Challenges Faced
+- Took the understanding of Next.js with typescript. It's more like a extended version of react with SSR.
+- Splitting the components while keeping the essence of when to use 'use client' and when not to.
+- Adding Protected Route was tricky bit.
+- Adding AuthContext and privder was tricky in here.
+- Tried to make the application scalable for future use.
+- In short, I faced challenges in front end side.
