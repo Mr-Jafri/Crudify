@@ -1,0 +1,13 @@
+﻿global using Crudify.Application.Dtos.Auth;
+global using Crudify.Application.Interfaces;
+global using Crudify.Application.Services;
+global using Crudify.Domain.Entities;
+global using Microsoft.AspNetCore.Identity;
+global using Moq;
+global using Crudify.Infrastructure.Database;
+global using Microsoft.EntityFrameworkCore;
+global using Crudify.Application.Dtos.Auth.Request;
+global using Microsoft.Extensions.Options;
+global using Microsoft.IdentityModel.Tokens;
+global using System.IdentityModel.Tokens.Jwt;
+global using System.Text;

@@ -1,0 +1,6 @@
+@Crudify.Api_HostAddress = http://localhost:5196
+
+GET {{Crudify.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

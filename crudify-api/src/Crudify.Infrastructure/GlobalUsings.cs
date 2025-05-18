@@ -1,0 +1,12 @@
+﻿global using Crudify.Domain.Entities;
+global using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Infrastructure;
+global using System.Reflection;
+global using Crudify.Infrastructure.Database;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using Microsoft.AspNetCore.Builder;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.EntityFrameworkCore.ChangeTracking;
+global using Crudify.Infrastructure.Interfaces;
