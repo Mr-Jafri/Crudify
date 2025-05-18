@@ -65,13 +65,16 @@ Contains unit test projects.
 ### 📁 src
 
 #### 📁 app
-
 - 📁 auth
-  - 📁 jwt
+- 📁 login
 - 📁 students
-  - 📁 add
-  - 📁 edit
 
+#### 📁 auth
+#### 📁 components
+#### 📁 hooks
+#### 📁 routes
+#### 📁 sections
+#### 📁 services
 ---
 
 ## ⚙️ Environment Setup
